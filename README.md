@@ -40,7 +40,7 @@ Libraries:
   - copy for copying data
   - re for regex on text
   - nltk : punkt, wordnet, omw-1.4, stem.PorterStemmer, stem.WordNetLemmatizer for word tokenization and find the root words
-  - pyspellchecker.SpellChecker for spell checker
+  - spellchecker.SpellChecker for suggestion of correct spelling
 * MACHINE LEARNING: 
   - sklearn.feature_extraction.text : CountVectorizer, TfidfVectorizer for text-to-vector modelling
   - sklearn.metrics.pairwise.cosine_similarity for looking similarity between two texts
