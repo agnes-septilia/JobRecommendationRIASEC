@@ -1,12 +1,19 @@
 # JOB RECOMMENDATION BASED ON RIASEC PERSONALITY
 
 ## INTRODUCTION
-In this program we will build job recommendation engine based on RIASEC personality. <br>
+Have you ever feel like you don't feel suitable skill for your current career?<br>
+Or you are no longer interested in current career, but don't have any idea what career is suitable for you? <br>
+
+One of the method to understand your career personality is using RIASEC personality code. <br>
 RIASEC itself stands for Realistic - Investigative - Artistic - Social - Enterprising - Conventional. <br>
-RIASEC Personality Test is commonly used to understand someone's skill and career interest. 
+Different personality, can lead you to different career options.
+
+## PROJECT WORKFLOW
+We will use Recommendation Engine concept to give user career recommendation based on their RIASEC personality. <br>
+Later on the program, user can input keywords related, and program will show modelling result as recommendation.
 
 ## DATASET
-We will use several datasets:<br>
+We use several datasets:<br>
 * Taken from https://www.onetonline.org/explore/interests/, we can get 6 separate datasets for each RIASEC personality, and related job options matched to personality
 * Taken from https://www.onetonline.org/find/family?f=0&g=Go, we can get occupation dataset for all job listed in the website.
 
@@ -22,11 +29,6 @@ We will use several datasets:<br>
   2. Text Extraction: TfidfVectorizer
   3. K-Nearest Neighbor
 * To check similarity between text, we use cosine similarity metric
-
-## EXPECTED PROGRAM WORKFLOW
-* User will be able to input the keywords
-* Program will get the anchor row, or the first row occurence that match keywords the most
-* Program will recommend top ten suggestion similar to the input result (1 anchor row + 9 similar to anchor)
 
 ## TECHNICAL
 Language: Python
